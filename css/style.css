@@ -1,0 +1,42 @@
+*{
+    font-family: 'space grotesk';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.img-carousel{
+    max-height:calc(100vh - 70px);
+}
+
+section{
+ height: auto;
+    padding-top: 70px;
+/* background: red; */
+}
+#home{
+    padding-top: 0;
+}
+
+h1{
+    font-weight: 900;
+}
+
+    section>.container{
+        height: 100vh;
+    }
+
+    @media screen and (max-width:991px) {
+       section{
+        padding-top: 350px;
+       }
+        section>.container{
+        height: auto;
+       }
+
+       #contact{
+        padding-bottom: 32px;
+       }
+
+    }
